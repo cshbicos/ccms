@@ -1,0 +1,60 @@
+/***************************************************************************
+ *   Copyright (C) 2006-2007, Christoph Herrmann (theone@csherrmann.com)   *
+ *                                                                         *
+ *                                                                         *
+ *   CCMS is free software; you can redistribute it and/or modify          *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 3 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   CCMS is distributed in the hope that it will be useful,               *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with CCMS. If not, see <http://www.gnu.org/licenses/>           *
+ ***************************************************************************/
+
+INPUT,TEXTAREA,SELECT {
+    font-family : Verdana;
+    font-size : 10px;
+    padding-bottom : 1px;
+    padding-left : 1px;
+    padding-right : 1px;
+    padding-top : 1px;
+  }
+
+
+td {
+    font-family : Verdana;
+    font-size : 10px;
+    height : 20px;
+    text-align : center;
+    vertical-align : middle;
+  }
+
+
+th {
+    font-family : Verdana;
+    font-size : 10px;
+    font-weight : bold;
+    text-align : center;
+  }
+
+td#curdate {
+    font-family : Verdana;
+    font-size : 10px;
+    height : 20px;
+    text-align : center;
+    vertical-align : middle;
+    background-color:#C7DEFF;
+
+}
+
+
+a:link { font-family : Verdana;font-size : 10px; color:blue; text-decoration:none; font-weight:normal;}
+a:visited { font-family : Verdana;font-size : 10px; color:blue; text-decoration:none; font-weight:normal;}
+a:focus { font-family : Verdana;font-size : 10px; color:blue; text-decoration:underline; font-weight:normal;}
+a:hover { font-family : Verdana;font-size : 10px; color:blue; text-decoration:none; font-weight:normal;}
+a:active { font-family : Verdana;font-size : 10px; color:blue; text-decoration:underline; font-weight:normal;}

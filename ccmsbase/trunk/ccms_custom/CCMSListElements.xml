@@ -1,0 +1,23 @@
+<ccms name="listobject">
+	<indent level="0" type="unordered" class="">
+		<entryconfig class=""/>
+		<element type="CCMSTextBoxElement" id='textbox1'>
+			<editclass></editclass>
+			<showclass></showclass>
+		</element>	
+	</indent>
+	<indent level="1" type="numeric" class="">
+		<entryconfig class="" />
+		<element type="CCMSRawTextElement" id="test">
+			<txt>blablabla</txt>
+		</element>
+		<element type="CCMSTextBoxElement" id='textbox2'>
+			<editclass></editclass>
+			<showclass></showclass>
+		</element>	
+		<element type="CCMSTextBoxElement" id='textbox3'>
+			<editclass></editclass>
+			<showclass></showclass>
+		</element>	
+	</indent>		
+</ccms>

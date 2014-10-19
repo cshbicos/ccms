@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE CCMSBase SYSTEM "http://ccms.mrman.de/dtds/ccmsbase.dtd">
+
+
+<ccms name="singleobject">
+	<element type="CCMSRawTextElement" id="test">
+		<txt><![CDATA[<br /><br />]]></txt>
+	</element>
+	
+	<element type="CCMSDatePickerElement" id='datepicker'>
+		<objectname>singleobject</objectname>
+		<editclass></editclass>
+		<showclass></showclass>
+	</element>
+	
+	<element type="CCMSRawTextElement">
+		<txt><![CDATA[<br /><br />]]></txt>
+	</element>
+
+	
+	<element type="CCMSLinkElement" id='link'>
+		<mode>1</mode>
+		<editclass></editclass>
+		<showclass></showclass>
+	</element>
+	
+	<element type="CCMSRawTextElement">
+		<txt><![CDATA[<br /><br />]]></txt>
+	</element>
+	
+	<element type="CCMSSinglePictureElement" id='pic'>
+		<picname>thepic.jpg</picname>
+		<objectname>singleobject</objectname>
+		<style></style>
+		<path>/home/web/mrman/picupl/</path>
+		<webpath>http://mrman.de/picupl/</webpath>
+		<alt>alternativer text</alt>
+		<width>0</width>
+		<height>0</height>
+		<type></type>
+		<size>0</size>
+	</element>
+	
+	<element type="CCMSRawTextElement">
+		<txt><![CDATA[<br /><br />]]></txt>
+	</element>
+	
+	<element type="CCMSSelectElement" id='select'>
+		<editclass></editclass>
+		<showclass></showclass>
+		<option id='1'>eins</option>
+		<option id='2'>zwei</option>
+		<option id='3'>drei</option>
+		<option id='4'>vier</option>
+	</element>
+	
+	<element type="CCMSRawTextElement">
+		<txt><![CDATA[<br /><br />]]></txt>
+	</element>
+	
+	<element type="CCMSTextAreaElement" id='area'>
+		<editclass></editclass>
+		<showclass></showclass>
+	</element>
+	
+	<element type="CCMSRawTextElement">
+		<txt><![CDATA[<br /><br />]]></txt>
+	</element>
+	
+	<element type="CCMSTextBoxElement" id='textbox'>
+		<editclass></editclass>
+		<showclass></showclass>
+	</element>	
+		
+</ccms>

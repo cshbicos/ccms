@@ -1,0 +1,14 @@
+<ccms name="picshow">
+	<element type="CCMSPictureShowElement">
+		<path>/home/ccms/picupl/</path>
+		<webpath>http://ccms.csrv/picupl/</webpath>
+		<maxwidth>0</maxwidth>
+		<maxheight>0</maxheight>
+		<preview_width>100</preview_width>
+		<preview_cols>3</preview_cols>
+		<size></size>
+		<type></type>
+		<tablestyle></tablestyle>
+		<picstyle></picstyle> 
+	</element>
+</ccms>

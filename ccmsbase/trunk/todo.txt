@@ -1,0 +1,18 @@
+small ones:
+move elements to own tree, keep "core" -> linux
+
+
+
+midsized:
+xml parser check for correct object definition (e.g single, table, list, filestore, picshow)
+check pathnames for trailing slash
+
+
+
+
+
+big ones:
+error handling not via js but via try catch throw... ( e.g no serverobject)
+write own dtds
+implement different languages
+check input for xhtml compatibilty

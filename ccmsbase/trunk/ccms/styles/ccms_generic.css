@@ -1,0 +1,78 @@
+/***************************************************************************
+ *   Copyright (C) 2006-2007, Christoph Herrmann (theone@csherrmann.com)   *
+ *                                                                         *
+ *                                                                         *
+ *   CCMS is free software; you can redistribute it and/or modify          *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 3 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   CCMS is distributed in the hope that it will be useful,               *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with CCMS. If not, see <http://www.gnu.org/licenses/>           *
+ ***************************************************************************/
+
+
+/**
+* The links in a CCMS Object edit header
+*/
+
+.ccms_headeditlink:link { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_headeditlink:visited { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_headeditlink:focus { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_headeditlink:hover { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_headeditlink:active { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+
+/**
+* To hide the Iframes.
+* Change only to debug
+*/
+
+.ccms_hiddeniframe { width:0px; height:0px; border: 0px; }
+
+
+/**
+* Style in the edit header of a CCMS Object.
+* Will be used in on a <DIV> tag with the edit link etc.
+*/
+
+.ccms_editmode_header { font-family : Verdana; font-size : 10px;  text-align : right; }
+
+/**
+* Visible element class.
+* The class to make the div element in showmode visible.
+*/
+
+.ccms_visible { font-family : Verdana;  font-size : 11px;}
+
+/**
+* Invisible element class.
+* The class to make the div element in editmode invisible.
+*/
+.ccms_invisible { display:none; font-family : Verdana;  font-size : 11px; }
+
+/**
+* The hidden "loading" gif for the upload popups
+*/
+
+div#ccms_upload_gif { font-family : Verdana;   font-size : 10px;  text-align : center;   display : none; }
+
+/**
+* Look of all HTML <INSERT > Tags (and select and textarea)
+*/
+.ccms_insertboxes { font-family : Verdana; font-size : 10px; padding-bottom : 1px;  padding-left : 1px;  padding-right : 1px; padding-top : 1px;}
+
+
+.ccms_editpart {
+    font-family : Verdana;
+    font-size : 10px;
+  }
+
+
+
+
+

@@ -1,0 +1,47 @@
+
+
+html, body, table {
+    font-family : Verdana;
+    font-size : 11px;
+    font-weight:normal;
+  }
+
+#adminlist {
+  width : 150px;
+
+}
+
+table#logintbl {
+    margin-left:auto;
+    margin-right:auto;
+    width: 300px;
+    text-align: center;
+  }
+
+
+td#logindesc {
+    height : 30px;
+    vertical-align : text-top;
+  }
+
+td#loginerror {
+	 height : 30px;
+    vertical-align : text-top;
+	color: #d90a0a;
+	text-align: center;
+
+}
+
+.righttext {
+text-align: right;
+}
+
+.lefttext {
+text-align: left;
+}
+
+.hiddeniframe {
+    width:0px;
+    height:0px;
+    border: 0px;
+}

@@ -1,0 +1,6 @@
+<ccms name="filestore">
+    <path>/home/path/to/generic/file/folder</path>
+		<webpath>http://webpath.to.generic/files/folder/</webpath>
+		<maxsize>0</maxsize>
+		<linkstyle></linkstyle>
+</ccms>

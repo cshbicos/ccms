@@ -1,0 +1,18 @@
+table#filetable{width: 350px; border-collapse:collapse;}
+td#selecttd{width: 150px; height: 120px; vertical-align: top;}
+select#fileselect{width: 150px; height: 120px; font-family : Verdana; font-size : 10px;}
+div#linkdiv { overflow: auto; height: 35px;}
+
+.propertytd {font-family : Verdana; font-size : 10px; text-align:left; font-weight:bold; width: 100px;}
+.valtd{font-family : Verdana; font-size : 10px; text-align:left; width: 100px;}
+
+.linkclass{ font-family : Verdana; font-size : 10px; text-decoration: none; color: blue; }
+
+td#spacetd { height: 30px;}
+
+td#uploadtxttd {font-family : Verdana; font-size : 10px; text-align:left; font-weight:bold;}
+
+input#uploadbox { font-family : Verdana; font-size : 10px; width: 320px;}
+input#uploadsubmit { font-family : Verdana; font-size : 10px;}
+div#upload_div_img{font-family : Verdana; font-size : 10px; display: none;}
+img#loadpic {border none;}

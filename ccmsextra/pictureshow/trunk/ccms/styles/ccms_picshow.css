@@ -1,0 +1,115 @@
+/***************************************************************************
+ *   Copyright (C) 2006-2007, Christoph Herrmann (theone@csherrmann.com)   *
+ *                                                                         *
+ *                                                                         *
+ *   CCMS is free software; you can redistribute it and/or modify          *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 3 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   CCMS is distributed in the hope that it will be useful,               *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with CCMS. If not, see <http://www.gnu.org/licenses/>           *
+ ***************************************************************************/
+
+/**
+* @file ccms_picshow.css
+* Used as the stylesheet for the pictureshow popup (show)
+*/
+
+/**
+* The main table for the show
+*/
+table#ccms_picshow_show {
+	border: 0px white solid;
+} 
+
+/**
+* A picture in the show
+*/
+.ccms_showpic {
+	border: 0px white solid;
+}
+
+/**
+* The show photographer col
+*/
+.ccms_show_photographer {
+	font-family : Verdana;
+   	font-size : 10px;
+	text-align: left;
+}
+
+/*
+* The show time col
+*/
+.ccms_show_time {
+	font-family : Verdana;
+   	font-size : 10px;
+	text-align: right;
+}
+
+/*
+* The show description col
+*/
+.ccms_show_desc {
+	font-family : Verdana;
+   	font-size : 10px;
+	text-align: center;
+}
+
+/**
+* Show Description input
+*/
+textarea#ccms_descbox {
+	font-size : 10px;
+	font-family : Verdana;
+	width: 500px; height : 30px;
+}
+
+/**
+* Show description change submit button
+*/
+input#ccms_savebutton{
+	font-size : 10px;
+	font-family : Verdana;
+}
+
+/**
+* The show savebutton row
+*/
+.ccms_saverow {
+	text-align: right;
+}
+
+/**
+* The showtd with the << in it
+*/
+td#ccms_goback {
+	height : 30px; text-align : left; vertical-align : bottom;
+}
+
+/**
+* The showtd with the >> in it
+*/
+td#ccms_goforward {
+	height : 30px; text-align : right; vertical-align : bottom;
+}
+
+/**
+* The links in the show
+*/
+.ccms_showlink:link { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_showlink:visited { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_showlink:focus { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_showlink:hover { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+.ccms_showlink:active { font-family : Verdana; font-size : 10px; color:blue; text-decoration:none;  font-weight:normal;}
+
+
+
+
+

@@ -1,0 +1,30 @@
+<ccms name="tableobject">
+	<tr>
+		<TD colspan="1">
+			<element type="CCMSDatePickerElement" id='datepicker'>
+				<objectname>tableobject</objectname>
+				<editclass>test</editclass>
+				<showclass></showclass>
+			</element>
+		</TD>
+		<TD>
+			<element type="CCMSTextBoxElement" id='textbox'>
+				<editclass></editclass>
+				<showclass></showclass>
+			</element>	
+		</TD>
+	</tr>
+	<tr>
+		<TD>
+			<element type="CCMSRawTextElement" id="test">
+				<txt></txt>
+			</element>
+		</TD>
+		<TD>
+			<element type="CCMSTextBoxElement" id='textbox2'>
+				<editclass></editclass>
+				<showclass></showclass>
+			</element>	
+		</TD>
+	</tr>
+</ccms>
